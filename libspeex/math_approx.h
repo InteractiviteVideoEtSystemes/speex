@@ -113,7 +113,7 @@ static inline spx_int16_t spx_ilog4(spx_uint32_t x)
    {
       r += 1;
    }
-   return r;
+   return (spx_int16_t) r;
 }
 
 #ifdef FIXED_POINT

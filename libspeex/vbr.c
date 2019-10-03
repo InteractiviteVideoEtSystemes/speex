@@ -84,8 +84,8 @@ void vbr_init(VBRState *vbr)
    vbr->last_pitch_coef=0;
    vbr->last_quality=0;
 
-   vbr->noise_accum = .05*pow(MIN_ENERGY, NOISE_POW);
-   vbr->noise_accum_count=.05;
+   vbr->noise_accum = .05f*pow(MIN_ENERGY, NOISE_POW);
+   vbr->noise_accum_count=.05f;
    vbr->noise_level=vbr->noise_accum/vbr->noise_accum_count;
    vbr->consec_noise=0;
 
