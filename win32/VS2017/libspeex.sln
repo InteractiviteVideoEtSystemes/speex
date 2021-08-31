@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspeex", "libspeex\libspeex.vcxproj", "{E972C52F-9E85-4D65-B19C-031E511E9DB4}"
 EndProject
@@ -64,8 +64,8 @@ Global
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_RTL_dll|Win32.Build.0 = Release_RTL_dll|Win32
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_RTL_dll|x64.ActiveCfg = Release_RTL_dll|x64
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_RTL_dll|x64.Build.0 = Release_RTL_dll|x64
-		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|Win32.ActiveCfg = Release_SSE|Win32
-		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|Win32.Build.0 = Release_SSE|Win32
+		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|Win32.ActiveCfg = Release_SSE2|Win32
+		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|Win32.Build.0 = Release_SSE2|Win32
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|x64.ActiveCfg = Release_SSE|x64
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE|x64.Build.0 = Release_SSE|x64
 		{E972C52F-9E85-4D65-B19C-031E511E9DB4}.Release_SSE2|Win32.ActiveCfg = Release_SSE2|Win32
@@ -108,8 +108,8 @@ Global
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_RTL_dll|Win32.Build.0 = Release_SSE2|Win32
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_RTL_dll|x64.ActiveCfg = Release_SSE2|x64
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_RTL_dll|x64.Build.0 = Release_SSE2|x64
-		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|Win32.ActiveCfg = Release_SSE|Win32
-		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|Win32.Build.0 = Release_SSE|Win32
+		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|Win32.ActiveCfg = Release_SSE2|Win32
+		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|Win32.Build.0 = Release_SSE2|Win32
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|x64.ActiveCfg = Release_SSE|x64
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE|x64.Build.0 = Release_SSE|x64
 		{961B8359-1393-4EF7-B8E0-67B6FE1C6DA8}.Release_SSE2|Win32.ActiveCfg = Release_SSE2|Win32
@@ -304,5 +304,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E856CF3-6B90-4501-8FD1-633C89C2162D}
 	EndGlobalSection
 EndGlobal
